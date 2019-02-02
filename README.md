@@ -12,6 +12,15 @@ For number divisible by 15 the application should answer 'FizzBuzz'<br>
 
 For any other number the application should return the number.
 
+## Dependecies
+Run this cmd in the terminal
+
+``` npm init```
+
+Then follow instruction in this link to install the e2e_training_wheels package
+
+https://www.npmjs.com/package/e2e_training_wheels
+
 ## Author
 [Viktor Olsson](https://github.com/vick3d)
 
