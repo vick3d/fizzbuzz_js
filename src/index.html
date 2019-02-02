@@ -13,13 +13,13 @@
     <header class="bg-blue py-6 text-center text-white border border-white">
         <div class="text-5xl font-bold">FIZZBUZZ</div>
     </header>
-    <div class="text-center text-xl mt-1" id="display_answer">Answer: </div>
     <div class="text-center mt-4">
         <input class="items-center" style="text-align:center;" type="text" id="value"> 
     </div>
     <div class="text-center py-2">
         <button id="button" class="items-center bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">Check</button>
     </div>
+    <div class="text-center text-4xl mt-1" id="display_answer"></div>
 </body>
 
 
@@ -32,7 +32,7 @@
             let value = document.getElementById('value').value
             let fizzBuzz = new FizzBuzz
             let result = fizzBuzz.check(value)
-            displayDiv.innerHTML = `Answer: ${result}`;
+            displayDiv.innerHTML = `${result}`;
         })
     })        
 </script>
