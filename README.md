@@ -17,6 +17,7 @@ For any other number the application should return the number.
 
 ## Deployment
 
+https://vick3d.github.io/fizzbuzz_js
 
 
 ## Questions
