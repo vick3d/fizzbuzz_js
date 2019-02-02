@@ -6,5 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let fizzBuzz = new FizzBuzz
         let result = fizzBuzz.check(value)
         displayDiv.innerHTML = `${result}`;
+             
     })
 }) 
+
