@@ -19,6 +19,10 @@ describe('Fizz Buzz', () => {
     it('returns FizzBuzz if number is divisible by 15', () => {
         expect(fizzBuzz.check(15)).to.eql('FizzBuzz')
     })
+
+    it('return invalid input if input is invalid', () => {
+        expect(fizzBuzz.check(-1)).to.eql('invalid input')
+    })
 })
 
     
